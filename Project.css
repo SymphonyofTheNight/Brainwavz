@@ -1,0 +1,1514 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("img/Brainwavz.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-expand-sm {
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand .logo {
+  height: 48px;
+  padding: 2px 10px;
+}
+
+.nav-item {
+  padding-left: 40px;
+}
+
+.navbar-collapse {
+  width: 100%;
+}
+
+.navbar-collapse ul li a {
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Montserrat' 'sans-serif';
+  font-size: 14px;
+  color: #666565;
+}
+
+@media screen and (max-width: 770px) {
+  .navbar-collapse {
+    width: 300px;
+  }
+  .navbar-collapse ul li a {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat' 'sans-serif';
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .navbar-brand {
+    width: 100%;
+  }
+  .navbar-brand .navbar-toggler {
+    float: right;
+    margin-top: 4px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar-brand {
+    width: 100%;
+  }
+  .navbar-brand .navbar-toggler {
+    float: right;
+    margin-top: 4px;
+  }
+}
+
+.container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .search-div {
+  background: #412f2f;
+  width: 250px;
+  height: 35px;
+  border-radius: 20px;
+}
+
+.container .search-div .search {
+  float: left;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  border: none;
+  background: none;
+  width: 200px;
+}
+
+.container .search-div .icon {
+  float: right;
+  margin-top: 5px;
+  margin-right: 13px;
+}
+
+.white-space-box {
+  background: white;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.white-space-box-2 {
+  background: white;
+  height: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 770px) {
+  .white-space-box {
+    background: white;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+  }
+  .white-space-box-2 {
+    background: white;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .white-space-box {
+    background: white;
+    height: 65px;
+    margin: 0;
+    padding: 0;
+  }
+  .white-space-box-2 {
+    background: white;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .white-space-box {
+    background: white;
+    height: 65px;
+    margin: 0;
+    padding: 0;
+  }
+  .white-space-box-2 {
+    background: white;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .white-space-box {
+    background: white;
+    height: 65px;
+    margin: 0;
+    padding: 0;
+  }
+  .white-space-box-2 {
+    background: white;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .search-div {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .search-div {
+    display: none;
+  }
+}
+
+.carousel-inner {
+  height: 410px;
+  width: 100%;
+}
+
+.carousel-inner #carousel-img {
+  width: 100%;
+  height: 410px;
+}
+
+@media screen and (max-width: 770px) {
+  .carousel-inner {
+    height: 270px;
+    width: 100%;
+  }
+  .carousel-inner #carousel-img {
+    width: 100%;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .carousel-inner {
+    height: 185px;
+    width: 100%;
+  }
+  .carousel-inner #carousel-img {
+    width: 100%;
+    height: 185px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .carousel-inner {
+    height: 185px;
+    width: 100%;
+  }
+  .carousel-inner #carousel-img {
+    width: 100%;
+    height: 185px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carousel-inner {
+    height: 170px;
+    width: 100%;
+  }
+  .carousel-inner #carousel-img {
+    width: 100%;
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .carousel-inner {
+    height: 150px;
+    width: 100%;
+  }
+  .carousel-inner #carousel-img {
+    width: 100%;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .carousel-inner {
+    height: 130px;
+    width: 100%;
+  }
+  .carousel-inner #carousel-img {
+    width: 100%;
+    height: 130px;
+  }
+}
+
+.content-box {
+  background: white;
+  width: 100%;
+  height: 330px;
+}
+
+.content-box .col-sm-3 {
+  float: left;
+}
+
+.content-box .earphones {
+  background: white;
+  height: 290px;
+  width: 250;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.content-box .headphones {
+  background: white;
+  height: 290px;
+  width: 250;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.content-box .foam {
+  background: white;
+  height: 290px;
+  width: 250;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.content-box .clip {
+  background: white;
+  height: 290px;
+  width: 250;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.content-box .content-img {
+  height: 260px;
+}
+
+.content-box .earphones span {
+  font-family: 'Courier Prime', monospace;
+  font-size: 18px;
+}
+
+.content-box .headphones span {
+  font-family: 'Courier Prime', monospace;
+  font-size: 18px;
+}
+
+.content-box .foam span {
+  font-family: 'Courier Prime', monospace;
+  font-size: 18px;
+}
+
+.content-box .clip span {
+  font-family: 'Courier Prime', monospace;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 770px) {
+  .collapse .navbar-nav .nav-item {
+    padding-left: 25px;
+  }
+  .content-box {
+    background: white;
+    width: 100%;
+    height: 230px;
+  }
+  .content-box .col-sm-3 .earphones {
+    background: white;
+    height: 190px;
+    width: 150;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .headphones {
+    background: white;
+    height: 190px;
+    width: 150;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .foam {
+    background: white;
+    height: 190px;
+    width: 150;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .clip {
+    background: white;
+    height: 190px;
+    width: 150;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .content-img {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .content-box {
+    background: white;
+    width: 100%;
+    height: 1340px;
+  }
+  .content-box .col-sm-3 .earphones {
+    background: white;
+    height: 310px;
+    width: 150;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .headphones {
+    background: white;
+    height: 310px;
+    width: 150;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .foam {
+    background: white;
+    height: 310px;
+    width: 150;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .clip {
+    background: white;
+    height: 310px;
+    width: 150;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .content-img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .content-box {
+    background: white;
+    width: 100%;
+    height: 1340px;
+  }
+  .content-box .col-sm-3 .earphones {
+    background: white;
+    height: 310px;
+    width: 150;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .headphones {
+    background: white;
+    height: 310px;
+    width: 150;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .foam {
+    background: white;
+    height: 310px;
+    width: 150;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .clip {
+    background: white;
+    height: 310px;
+    width: 150;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .content-img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .content-box {
+    background: white;
+    width: 100%;
+    height: 1100px;
+  }
+  .content-box .col-sm-3 .earphones {
+    background: white;
+    height: 250px;
+    width: 110;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .headphones {
+    background: white;
+    height: 250px;
+    width: 110;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .foam {
+    background: white;
+    height: 250px;
+    width: 110;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .clip {
+    background: white;
+    height: 250px;
+    width: 110;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .content-img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content-box {
+    background: white;
+    width: 100%;
+    height: 1100px;
+  }
+  .content-box .col-sm-3 .earphones {
+    background: white;
+    height: 250px;
+    width: 110;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .headphones {
+    background: white;
+    height: 250px;
+    width: 110;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .foam {
+    background: white;
+    height: 250px;
+    width: 110;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .clip {
+    background: white;
+    height: 250px;
+    width: 110;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .content-box .col-sm-3 .content-img {
+    height: 200px;
+  }
+}
+
+.before-footer {
+  background: #bebebe;
+  width: 100%;
+  height: 180px;
+  overflow: auto;
+}
+
+.before-footer .brand-name {
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  opacity: 0;
+}
+
+.before-footer .brand-name .brand-title {
+  font-size: 30px;
+  font-family: 'Courier Prime', monospace;
+}
+
+.before-footer .brand-description {
+  height: 25px;
+  width: 100%;
+  margin-top: 0px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  opacity: 0;
+}
+
+.before-footer .brand-description .brand-description-text {
+  font-size: 12px;
+  font-family: 'Courier Prime', monospace;
+}
+
+.before-footer .brand-text {
+  height: 80px;
+  width: 100%;
+  margin-top: 0px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0%;
+  padding: 0;
+}
+
+.before-footer .brand-text .brand-text-text {
+  font-size: 10px;
+  font-family: 'Courier Prime', monospace;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.white-space-box-3 {
+  background: white;
+  height: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 770px) {
+  .before-footer {
+    background: #bebebe;
+    width: 100%;
+    height: 220px;
+    overflow: auto;
+  }
+  .before-footer .brand-name {
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+  }
+  .before-footer .brand-name .brand-title {
+    font-size: 30px;
+    font-family: 'Courier Prime', monospace;
+  }
+  .before-footer .brand-description {
+    height: 25px;
+    width: 100%;
+    margin-top: 0px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+  }
+  .before-footer .brand-description .brand-description-text {
+    font-size: 12px;
+    font-family: 'Courier Prime', monospace;
+  }
+  .before-footer .brand-text {
+    height: 80px;
+    width: 100%;
+    margin-top: 0px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0%;
+    padding: 0;
+  }
+  .before-footer .brand-text .brand-text-text {
+    font-size: 10px;
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .before-footer {
+    background: #bebebe;
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+  }
+  .before-footer .brand-name {
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+  }
+  .before-footer .brand-name .brand-title {
+    font-size: 30px;
+    font-family: 'Courier Prime', monospace;
+  }
+  .before-footer .brand-description {
+    height: 25px;
+    width: 100%;
+    margin-top: 0px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+  }
+  .before-footer .brand-description .brand-description-text {
+    font-size: 15px;
+    font-family: 'Courier Prime', monospace;
+  }
+  .before-footer .brand-text {
+    height: 310px;
+    width: 100%;
+    margin-top: 0px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0%;
+    padding: 0;
+  }
+  .before-footer .brand-text .brand-text-text {
+    font-size: 12px;
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .before-footer {
+    background: #bebebe;
+    width: 100%;
+    height: 470px;
+    overflow: auto;
+  }
+  .before-footer .brand-name {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+  }
+  .before-footer .brand-name .brand-title {
+    font-size: 30px;
+    font-family: 'Courier Prime', monospace;
+  }
+  .before-footer .brand-description {
+    height: 25px;
+    width: 100%;
+    margin-top: 0px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+  }
+  .before-footer .brand-description .brand-description-text {
+    font-size: 15px;
+    font-family: 'Courier Prime', monospace;
+  }
+  .before-footer .brand-text {
+    height: 310px;
+    width: 100%;
+    margin-top: 0px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0%;
+    padding: 0;
+  }
+  .before-footer .brand-text .brand-text-text {
+    font-size: 12px;
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .before-footer {
+    background: #bebebe;
+    width: 100%;
+    height: 530px;
+    overflow: auto;
+  }
+  .before-footer .brand-name {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+  }
+  .before-footer .brand-name .brand-title {
+    font-size: 30px;
+    font-family: 'Courier Prime', monospace;
+  }
+  .before-footer .brand-description {
+    height: 25px;
+    width: 100%;
+    margin-top: 0px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+  }
+  .before-footer .brand-description .brand-description-text {
+    font-size: 15px;
+    font-family: 'Courier Prime', monospace;
+  }
+  .before-footer .brand-text {
+    height: 310px;
+    width: 100%;
+    margin-top: 0px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0%;
+    padding: 0;
+  }
+  .before-footer .brand-text .brand-text-text {
+    font-size: 12px;
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .before-footer {
+    background: #bebebe;
+    width: 100%;
+    height: 590px;
+    overflow: auto;
+  }
+  .before-footer .brand-name {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+  }
+  .before-footer .brand-name .brand-title {
+    font-size: 30px;
+    font-family: 'Courier Prime', monospace;
+  }
+  .before-footer .brand-description {
+    height: 25px;
+    width: 100%;
+    margin-top: 0px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+  }
+  .before-footer .brand-description .brand-description-text {
+    font-size: 15px;
+    font-family: 'Courier Prime', monospace;
+  }
+  .before-footer .brand-text {
+    height: 310px;
+    width: 100%;
+    margin-top: 0px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0%;
+    padding: 0;
+  }
+  .before-footer .brand-text .brand-text-text {
+    font-size: 12px;
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .before-footer {
+    background: #bebebe;
+    width: 100%;
+    height: 530px;
+    overflow: auto;
+  }
+  .before-footer .brand-name {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+  }
+  .before-footer .brand-name .brand-title {
+    font-size: 30px;
+    font-family: 'Courier Prime', monospace;
+  }
+  .before-footer .brand-description {
+    height: 25px;
+    width: 100%;
+    margin-top: 0px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+  }
+  .before-footer .brand-description .brand-description-text {
+    font-size: 12px;
+    font-family: 'Courier Prime', monospace;
+  }
+  .before-footer .brand-text {
+    height: 310px;
+    width: 100%;
+    margin-top: 0px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0%;
+    padding: 0;
+  }
+  .before-footer .brand-text .brand-text-text {
+    font-size: 10px;
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+.content-box-2 {
+  background: black;
+  height: 400px;
+  width: 100%;
+}
+
+.content-box-2 .col-sm-6 {
+  float: left;
+}
+
+.content-box-2 .col-sm-6 .hm5-img-box {
+  background: white;
+  height: 400px;
+  width: 100%;
+}
+
+.content-box-2 .col-sm-6 .hm5-img-box .hm-5 {
+  height: 400px;
+  width: 100%;
+}
+
+.content-box-2 .col-sm-6 .hm5-content {
+  background: #414141;
+  height: 400px;
+  width: 100%;
+  overflow: auto;
+}
+
+.content-box-2 .col-sm-6 .hm5-content .hm-5-name {
+  background: rgba(250, 2, 2, 0);
+  height: 50px;
+  width: 100%;
+  margin-top: 60px;
+  line-height: 60px;
+}
+
+.content-box-2 .col-sm-6 .hm5-content .hm-5-name .hm5-name-text {
+  margin-left: 30px;
+  font-size: 30px;
+  font-family: 'Courier Prime', monospace;
+  color: silver;
+}
+
+.content-box-2 .col-sm-6 .hm5-content-decs {
+  background: rgba(107, 107, 107, 0);
+  width: 100%;
+  height: 25px;
+}
+
+.content-box-2 .col-sm-6 .hm5-content-decs .hm-5-content-text {
+  margin-left: 30px;
+  font-size: 15px;
+  font-family: 'Courier Prime', monospace;
+  color: silver;
+}
+
+.content-box-2 .col-sm-6 .content-hm5 {
+  background: rgba(212, 26, 26, 0);
+  width: 100%;
+  height: 145px;
+}
+
+.content-box-2 .col-sm-6 .content-hm5 .text-hm5 {
+  margin-left: 30px;
+  font-size: 15px;
+  font-family: 'Courier Prime', monospace;
+  color: silver;
+  float: left;
+  margin-top: 15px;
+}
+
+.content-box-2 .col-sm-6 .more-details {
+  background: #004200;
+  height: 45px;
+  width: 100%;
+}
+
+.content-box-2 .col-sm-6 .more-details .more-details-inner {
+  background: black;
+  height: 45px;
+  width: 130px;
+  margin-left: 30px;
+  border: 1px solid #c0c0c0;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.content-box-2 .col-sm-6 .more-details .more-details-inner .more-details-text {
+  font-size: 12px;
+  color: #c0c0c0;
+}
+
+.content-box-2 .col-sm-6 .more-details .more-details-inner:hover .more-details-text {
+  color: #004200;
+}
+
+.white-space-box-4 {
+  background: white;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=Project.css.map */
